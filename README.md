@@ -17,6 +17,11 @@ Stored in /data
 ├── README.md                   # Project description (this file)
 └── LICENSE                     # MIT License
 
+# Tools & Technologies
+Python (Pandas, Matplotlib, Seaborn)
+Tableau (Dashboard export)
+Git & GitHub (Version control)
+
 # Business Problem
 Banks lose customers over time, a phenomenon known as churn. High churn reduces revenue and increases costs for acquiring new customers. Predicting which customers are likely to leave allows the bank to take proactive steps to retain them, improve customer satisfaction, and maximize lifetime value.
 
@@ -27,6 +32,28 @@ Key questions the analysis aims to answer:
 3. Which country has the highest churn?
 4. Does account balance affect churn?
 5. Do customers with more products stay longer?
+
+# Bank Churn Analysis – Insights by Business Questions
+1. Churn Rate
+Observation: Overall churn rate is 20% → meaning 1 in 5 customers leaves the bank.
+Implication: There’s a significant retention challenge; strategies to improve loyalty are essential.
+
+2. Age Groups and Churn
+Observation: Customers aged 46–55 years are most likely to leave.
+Possible Reasons: Economic conditions affecting this segment, or better offers from competitors.
+
+3. Country with Highest Churn
+Observation: Germany has the highest churn.
+Possible Reasons: Customer dissatisfaction or strong competition in the market.
+Implication: Focus retention campaigns and customer engagement strategies specifically in Germany.
+
+4. Account Balance and Churn
+Observation: Customers with low account balances are more likely to leave.
+Implication: Target low-balance customers with personalized offers or incentives to reduce churn.
+
+5. Product Holding and Churn
+Observation: Customers with 2 products are most likely to leave.
+Insight: Increasing cross-selling opportunities (encouraging customers to use 3+ products) reduces churn.
 
 # Visualizations
 Box plots: Age vs Churn, Balance vs Churn
